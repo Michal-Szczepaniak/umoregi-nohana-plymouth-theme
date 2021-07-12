@@ -13,7 +13,7 @@ first_sprite.SetX (Window.GetWidth () / 2 - some_image.GetWidth ()/2);
 
 a=1;
 fun refresh_callback (a) {
-  a=a+1;
+  a=a+0.5;
   change = Image(a + ".png");
   first_sprite.SetImage (change);
   if (a == 244) {
